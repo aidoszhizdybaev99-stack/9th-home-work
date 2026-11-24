@@ -8,6 +8,7 @@
   "scripts": {
     "start": "tsx",
     "dev": "tsx watch",
+    "bot": "tsx src/bot.ts",
     "build": "tsc",
     "start:build": "node dist/index.js",
     "typecheck": "tsc --noEmit"
